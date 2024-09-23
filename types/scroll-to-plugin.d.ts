@@ -10,19 +10,16 @@ declare namespace ScrollToPlugin {
 }
 
 declare namespace gsap {
-
   interface TweenVars {
     scrollTo?: number | string | Element | Function | ScrollToPlugin.Vars;
   }
 }
 
 declare namespace gsap.plugins {
-  interface ScrollToPlugin extends Plugin {
-     
-  }
+  interface ScrollToPlugin extends Plugin {}
 
   interface ScrollToPluginClass extends ScrollToPlugin {
-    new(): PluginScope & ScrollToPlugin;
+    new (): PluginScope & ScrollToPlugin;
     prototype: PluginScope & ScrollToPlugin;
   }
 

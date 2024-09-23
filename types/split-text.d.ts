@@ -7,10 +7,9 @@ declare class SplitText {
 
   constructor(target: gsap.DOMTarget, vars?: SplitText.Vars);
 
-
   /**
    * Reverts the innerHTML to the original content.
-   * 
+   *
    * ```js
    * split.revert();
    * ```
@@ -22,7 +21,7 @@ declare class SplitText {
 
   /**
    * Re-splits a SplitText according to the vars provided. It will automatically call revert() first if necessary. Useful if you want to change the way the text is split after the SplitText instance is created.
-   * 
+   *
    * ```js
    * split.split({type: "lines,chars"});
    * ```
@@ -52,10 +51,7 @@ declare namespace SplitText {
 
 declare module "gsap/SplitText" {
   class _SplitText extends SplitText {}
-  export {
-    _SplitText as SplitText,
-    _SplitText as default
-  }
+  export { _SplitText as SplitText, _SplitText as default };
 }
 
 declare module "gsap/src/SplitText" {

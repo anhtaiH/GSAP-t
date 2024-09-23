@@ -2,7 +2,6 @@
 declare const CustomBounce: any;
 
 declare module "gsap/CustomBounce" {
-
   // TODO
   export const CustomBounce: any;
   export { CustomBounce as default };

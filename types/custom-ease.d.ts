@@ -2,7 +2,6 @@
 declare const CustomEase: any;
 
 declare module "gsap/CustomEase" {
-
   // TODO
   export const CustomEase: any;
   export { CustomEase as default };
@@ -23,7 +22,6 @@ declare module "gsap/all" {
 }
 
 declare module "gsap-trial/CustomEase" {
-
   // TODO
   export const CustomEase: any;
   export { CustomEase as default };
