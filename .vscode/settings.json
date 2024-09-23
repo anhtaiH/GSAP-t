@@ -1,0 +1,17 @@
+{
+  "search.exclude": {
+    "dist": true,
+    ".vscode": true,
+    "esm": true
+},
+"files.exclude": {
+    "dist": true,
+    ".vscode": true,
+    "esm": true
+},
+"files.watcherExclude": {
+    "dist": true,
+    ".vscode": true,
+    "esm": true
+}
+}
